@@ -1,3 +1,4 @@
+import 'package:finsire_machine_test/constants.dart';
 import 'package:flutter/material.dart';
 
 class PageFive extends StatelessWidget {
@@ -6,7 +7,7 @@ class PageFive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: kWhite,
       child: const Center(
         child: Text('Page Five'),
       ),

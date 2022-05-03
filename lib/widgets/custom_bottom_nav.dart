@@ -33,12 +33,12 @@ class CustomBottomNavBar extends StatelessWidget {
                   ? const Icon(
                       Icons.home_filled,
                       color: kGrey,
-                      size: 28,
+                      size: 25,
                     )
                   : const Icon(
                       Icons.home_filled,
                       color: kWhite,
-                      size: 28,
+                      size: 25,
                     ),
             ),
           ),
@@ -50,12 +50,12 @@ class CustomBottomNavBar extends StatelessWidget {
                   ? const Icon(
                       Icons.search,
                       color: kGrey,
-                      size: 28,
+                      size: 25,
                     )
                   : const Icon(
                       Icons.search,
                       color: kWhite,
-                      size: 28,
+                      size: 25,
                     ),
             ),
           ),
@@ -67,12 +67,12 @@ class CustomBottomNavBar extends StatelessWidget {
                   ? const Icon(
                       Icons.circle_outlined,
                       color: kGrey,
-                      size: 28,
+                      size: 25,
                     )
                   : const Icon(
                       Icons.circle_outlined,
                       color: kWhite,
-                      size: 28,
+                      size: 25,
                     ),
             ),
           ),
@@ -84,12 +84,12 @@ class CustomBottomNavBar extends StatelessWidget {
                   ? const Icon(
                       Icons.check_circle_outlined,
                       color: kGrey,
-                      size: 28,
+                      size: 25,
                     )
                   : const Icon(
                       Icons.check_circle_outlined,
                       color: kWhite,
-                      size: 28,
+                      size: 25,
                     ),
             ),
           ),
@@ -101,12 +101,12 @@ class CustomBottomNavBar extends StatelessWidget {
                   ? const Icon(
                       Icons.person_outline,
                       color: kGrey,
-                      size: 28,
+                      size: 25,
                     )
                   : const Icon(
                       Icons.person_outline,
                       color: kWhite,
-                      size: 28,
+                      size: 25,
                     ),
             ),
           ),
