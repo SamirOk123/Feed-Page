@@ -5,10 +5,8 @@ class PageTwo extends StatelessWidget {
   const PageTwo({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: kWhite,
-      child: Center(child: Text('Page Two')),
-    );
-  }
+  Widget build(BuildContext context) => Container(
+        color: kWhite,
+        child: const Center(child: Text('Page Two')),
+      );
 }

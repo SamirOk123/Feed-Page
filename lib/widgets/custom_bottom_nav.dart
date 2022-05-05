@@ -1,5 +1,5 @@
 import 'package:finsire_machine_test/constants.dart';
-import 'package:finsire_machine_test/views/controllers/navigation_controller.dart';
+import 'package:finsire_machine_test/controllers/navigation_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -15,9 +15,17 @@ class CustomBottomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 60,
-      decoration: const BoxDecoration(
-        color: Color(0xff090939),
-        borderRadius: BorderRadius.only(
+      decoration: BoxDecoration(
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.7),
+            spreadRadius: -1,
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          ),
+        ],
+        color: const Color(0xff090939),
+        borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(20),
           topRight: Radius.circular(20),
         ),

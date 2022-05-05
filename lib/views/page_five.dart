@@ -5,12 +5,10 @@ class PageFive extends StatelessWidget {
   const PageFive({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: kWhite,
-      child: const Center(
-        child: Text('Page Five'),
-      ),
-    );
-  }
+  Widget build(BuildContext context) => Container(
+        color: kWhite,
+        child: const Center(
+          child: Text('Page Five'),
+        ),
+      );
 }
